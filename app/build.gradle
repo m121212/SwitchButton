@@ -24,8 +24,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile project(':libk-switchbutton')
-    compile "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation project(':libk-switchbutton')
+    //noinspection GradleCompatible
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
 }
