@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2016 KingJA
+ *  Copyright (C) 2018 Marcello Montanino
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -33,12 +33,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * Description  A smart switchable button,support multiple tabs.
- * Create Time  2016/7/27 14:57
- * Author   KingJA
- * Email    kingjavip@gmail.com
- */
 public class SwitchMultiButton extends View {
 
     private static final String TAG = "SwitchMultiButton";
