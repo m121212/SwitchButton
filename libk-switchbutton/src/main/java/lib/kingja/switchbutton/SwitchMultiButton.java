@@ -315,7 +315,7 @@ public class SwitchMultiButton extends View {
      */
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        if (event.getAction() == MotionEvent.ACTION_UP) {
+        if (this.getEnabled() && event.getAction() == MotionEvent.ACTION_UP) {
             float x = event.getX();
             for (int i = 0; i < mTabNum; i++) {
                 if (x > perWidth * i && x < perWidth * (i + 1)) {
